@@ -29,7 +29,8 @@ mongo.log
 *.csv
 *.out
 
-/public/assets/images/working
+#ignore assets
+/public/assets/
 
 config/database.yml
 config/environments/development.rb
